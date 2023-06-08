@@ -26,8 +26,12 @@ const ProductList = () => {
         })
     }
 
-    return (
-        <div>ProductList</div>
+    const content = (
+        <main className="main main--products">
+            {pageContent}
+        </main>
     )
+
+    return content
 }
 export default ProductList
